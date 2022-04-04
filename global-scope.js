@@ -10,3 +10,7 @@ function ping (){
     setTimeout(()=>console.log("Ping"),1000);
   }
   ping() // "Ping"
+
+  const num =[1,2]
+const[a,b]=num
+console.log(a);
